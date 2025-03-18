@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container-grid {
     display: grid;
 }
@@ -9,11 +13,11 @@ nav {
     text-align: center;
     align-items: center;
     background-color: beige;
-
+    height: 80px;
 }
 
 .logo h6 {
-    font-size: 200%;
+    font-size: 210%;
     margin: 0;
 }
 
@@ -22,7 +26,8 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    font-size: 150%;
+    font-size: 130%;
+    text-transform: uppercase;
 }
 
 nav a.nav-menu {
@@ -35,6 +40,10 @@ nav a.nav-menu {
 
 div.modal {
     display: none;
+}
+a:hover{
+    font-size: 120%;
+    color: aquamarine;
 }
 
 
