@@ -5,4 +5,6 @@ Atividades sobre CSS Grid
   - Grid Layout
   - Tamplete grid
   - Grid Area
+  - Grid Columns
+  - Grid Rows
   
