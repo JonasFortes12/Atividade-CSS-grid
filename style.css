@@ -8,7 +8,7 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     align-items: center;
-    background-color: beige;
+    background-color: palevioletred;
 
 }
 
@@ -21,7 +21,7 @@ nav a{
     list-style: none;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color:black;
     font-size: 150%;
 }
 
