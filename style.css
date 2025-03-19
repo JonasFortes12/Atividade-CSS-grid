@@ -8,8 +8,8 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     align-items: center;
-    background-color: beige;
-
+    background-color: rgb(173, 173, 161);
+    
 }
 
 .logo h6 {
