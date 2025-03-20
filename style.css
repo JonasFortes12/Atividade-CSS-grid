@@ -8,11 +8,12 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     align-items: center;
-    background-color: beige;
+    background-color: palevioletred;
 
 }
 
 .logo h6 {
+    color:aliceblue;
     font-size: 200%;
     margin: 0;
 }
@@ -20,14 +21,15 @@ nav {
 nav a{
     list-style: none;
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
     font-size: 150%;
 }
 
 nav a.nav-menu {
     display: none;
-    color: black;
+    color: whitesmoke;
     cursor: pointer;
     grid-column-start: 5;
 
