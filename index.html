@@ -50,10 +50,26 @@
         <div class="logo">
             <h6 id="textlogo">LOGO</h6>
         </div>
-        <a href="#">Home</a>
-        <a href="#">Quem Somos</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
+
+        <a href="">
+            <li>Home</li>
+        </a>
+        <a href="">
+            <li>Quem Somos</li>
+        </a>
+        <a href="">
+            <li>Serviços</li>
+        </a>
+        <a href="">
+            <li>Contato</li>
+        </a>
+
+        <a class="nav-menu" href="#modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </a>
+
     </nav>
 
     <div class="form-container">
@@ -63,25 +79,54 @@
         <button onclick="enviarFormulario()">Enviar</button>
     </div>
 
-    <button onclick="mudarCorLogo()">Mudar Cor do Logo</button>
 
-    <script>
-        function enviarFormulario() {
-            let nome = document.getElementById("nome").value;
-            let email = document.getElementById("email").value;
-            if (nome && email) {
-                alert("Formulário enviado com sucesso!");
-            } else {
-                alert("Por favor, preencha todos os campos.");
-            }
-        }
+    <div class="container-grid" id="postagens">
 
-        function mudarCorLogo() {
-            let logo = document.getElementById("textlogo");
-            let cores = ["red", "blue", "green", "purple", "orange"];
-            let corAleatoria = cores[Math.floor(Math.random() * cores.length)];
-            logo.style.color = corAleatoria;
-        }
-    </script>
+        <div class="container-grid" id="postagem-1">
+            <img src="img/storm_img.jpg" alt="">
+            <h5>Titulo postagem 1</h5>
+        </div>
+
+        <div class="container-grid" id="postagem-2">
+            <img src="img/storm_img.jpg" alt="">
+            <h5>Titulo postagem 2</h5>
+        </div>
+
+        <div class="container-grid" id="postagem-3">
+            <img src="img/storm_img.jpg" alt="">
+            <h5>Titulo postagem 3</h5>
+        </div>
+
+    </div>
+
+    <div class="container-grid" id="itens-banner">
+
+        <div class="container-grid" id="itens">
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 1</h6>
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 2</h6>
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 3</h6>
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 4</h6>
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 5</h6>
+            <img src="img/storm_img.jpg" alt="">
+            <h6>item 6</h6>
+        </div>
+
+        <div class="container-grid" id="banner">
+            <img src="img/storm_img.jpg" alt="">
+            <h6>Banner</h6>
+        </div>
+        
+
+
+    </div>
+
+    <footer class="footer">
+        Copyright - todos os direitos reservados
+    </footer>
 </body>
 </html>
