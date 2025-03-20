@@ -95,6 +95,10 @@ div#banner img {
 div#banner h6 {
     text-align: center;
 }
+.footer{
+    background-color: rgb(173, 173, 161);
+    height: 40px;
+}
 
 @media (max-width: 415px) {
 
