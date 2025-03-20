@@ -3,6 +3,10 @@
     display: grid;
 }
 
+body {
+    background-color: aqua;
+}
+
 nav {
 
     grid-template-columns: repeat(5, 1fr);
@@ -47,9 +51,7 @@ div#postagens{
 }
 
 
-div#postagem-1 {
-    /* grid-template-rows: 60%; */
-}
+
 
 div#postagem-1 img,
 div#postagem-2 img,
