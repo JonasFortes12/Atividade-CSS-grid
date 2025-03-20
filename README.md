@@ -1,8 +1,9 @@
-## Atividade-CSS-grid
+# Atividade-CSS-grid
+
 Atividades sobre CSS Grid
 
- O que estou aprendendo:
-  - Grid Layout
-  - Tamplete grid
-  - Grid Area
-  
+O que estou aprendendo:
+
+- Grid Layout
+- Tamplete grid
+- Grid Area
