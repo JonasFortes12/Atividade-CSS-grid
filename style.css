@@ -37,6 +37,54 @@ div.modal {
     display: none;
 }
 
+div#posts {
+    margin: 3%;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 5%;
+}
+
+div#post-1 {
+    grid-template-rows: 80%;
+}
+
+div#post-1 img, div#post-2 img, div#post-3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.post-title {
+    text-align: center;
+}
+
+div#itens-banner {
+    grid-template-columns: 50% auto;
+}
+
+div#itens {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5%;
+    margin: 3%;
+}
+
+div#itens h6 {
+    align-self: center;
+}
+
+div#itens img {
+    height: 100%;
+    width: 100%;
+}
+
+div#banner img {
+    height: 100%;
+    width: 100%;
+}
+
+div#banner h6 {
+    text-align: center;
+}
 
 @media (max-width: 415px) {
 
@@ -79,8 +127,7 @@ div.modal {
         pointer-events: auto;
     }
 
-  
-
+ 
     
 
 
