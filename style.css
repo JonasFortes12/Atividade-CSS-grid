@@ -37,7 +37,6 @@ div.modal {
     display: none;
 }
 
-<<<<<<< HEAD
 div#posts {
     margin: 3%;
     grid-template-columns: repeat(3, 1fr);
@@ -50,65 +49,27 @@ div#post-1 {
 }
 
 div#post-1 img, div#post-2 img, div#post-3 img {
-=======
-/* ------------------Postagens-----------------------*/
-
-div#postagens{
-    grid-template-columns: repeat(3, 1fr);
-
-    column-gap: 5%;
-    margin: 3%;
-}
-
-
-div#postagem-1 {
-    /* grid-template-rows: 60%; */
-}
-
-div#postagem-1 img,
-div#postagem-2 img,
-div#postagem-3 img {
->>>>>>> 495d161153d614d69c2f3c76cf24f93f6fb4795f
     height: 100%;
     width: 100%;
 }
 
-<<<<<<< HEAD
 .post-title {
     text-align: center;
 }
 
 div#itens-banner {
     grid-template-columns: 50% auto;
-=======
-div#postagem-1 h5,
-div#postagem-2 h5,
-div#postagem-3 h5 {
-    text-align: center;
-}
-
-/* ------------------Itens e banner-----------------------*/
-
-div#itens-banner {
-    grid-template-columns: auto 40%;
-
->>>>>>> 495d161153d614d69c2f3c76cf24f93f6fb4795f
 }
 
 div#itens {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-<<<<<<< HEAD
     gap: 5%;
     margin: 3%;
 }
 
 div#itens h6 {
     align-self: center;
-=======
-    column-gap: 5%;
-    row-gap: 5%;
->>>>>>> 495d161153d614d69c2f3c76cf24f93f6fb4795f
 }
 
 div#itens img {
@@ -116,13 +77,6 @@ div#itens img {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-div#itens h6 {
-    align-self: center;
-}
-
->>>>>>> 495d161153d614d69c2f3c76cf24f93f6fb4795f
 div#banner img {
     height: 100%;
     width: 100%;
