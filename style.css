@@ -8,8 +8,8 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     align-items: center;
-    background-color: beige;
-
+    background-color: rgb(173, 173, 161);
+    
 }
 
 .logo h6 {
@@ -47,9 +47,9 @@ div#postagens{
 }
 
 
-div#postagem-1 {
-    /* grid-template-rows: 60%; */
-}
+/* div#postagem-1 {
+    /* grid-template-rows: 60%; 
+} */
 
 div#postagem-1 img,
 div#postagem-2 img,
@@ -94,6 +94,10 @@ div#banner img {
 
 div#banner h6 {
     text-align: center;
+}
+.footer{
+    background-color: rgb(173, 173, 161);
+    height: 40px;
 }
 
 @media (max-width: 415px) {
