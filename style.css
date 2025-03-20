@@ -37,54 +37,44 @@ div.modal {
     display: none;
 }
 
-/* ------------------Postagens-----------------------*/
-
-div#postagens{
+div#posts {
+    margin: 3%;
     grid-template-columns: repeat(3, 1fr);
 
     column-gap: 5%;
-    margin: 3%;
 }
 
-
-div#postagem-1 {
-    /* grid-template-rows: 60%; */
+div#post-1 {
+    grid-template-rows: 80%;
 }
 
-div#postagem-1 img,
-div#postagem-2 img,
-div#postagem-3 img {
+div#post-1 img, div#post-2 img, div#post-3 img {
     height: 100%;
     width: 100%;
 }
 
-div#postagem-1 h5,
-div#postagem-2 h5,
-div#postagem-3 h5 {
+.post-title {
     text-align: center;
 }
 
-/* ------------------Itens e banner-----------------------*/
-
 div#itens-banner {
-    grid-template-columns: auto 40%;
-
+    grid-template-columns: 50% auto;
 }
 
 div#itens {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 5%;
-    row-gap: 5%;
+    gap: 5%;
+    margin: 3%;
+}
+
+div#itens h6 {
+    align-self: center;
 }
 
 div#itens img {
     height: 100%;
     width: 100%;
-}
-
-div#itens h6 {
-    align-self: center;
 }
 
 div#banner img {
@@ -108,11 +98,11 @@ div#banner h6 {
 
     div.modal {
         display: grid;
-        color: black;
+        color: darkblue;
         font-size: 150%;
         align-content: center;
         text-align: center;
-        row-gap: 5%;
+        row-gap: 6%;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.6);
         top: 0;
@@ -128,17 +118,16 @@ div#banner h6 {
     div.modal a {
         text-decoration: none;
         list-style: none;
-        color: whitesmoke;
+        color: gainsboro;
         font-size: 140%;
     }
 
     div.modal:target {
-        opacity: 1;
+        opacity: 2;
         pointer-events: auto;
     }
 
-  
-
+ 
     
 
 
