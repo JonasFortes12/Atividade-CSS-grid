@@ -98,11 +98,11 @@ div#banner h6 {
 
     div.modal {
         display: grid;
-        color: black;
+        color: darkblue;
         font-size: 150%;
         align-content: center;
         text-align: center;
-        row-gap: 5%;
+        row-gap: 6%;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.6);
         top: 0;
@@ -118,12 +118,12 @@ div#banner h6 {
     div.modal a {
         text-decoration: none;
         list-style: none;
-        color: cornsilk;
+        color: gainsboro;
         font-size: 140%;
     }
 
     div.modal:target {
-        opacity: 1;
+        opacity: 2;
         pointer-events: auto;
     }
 
